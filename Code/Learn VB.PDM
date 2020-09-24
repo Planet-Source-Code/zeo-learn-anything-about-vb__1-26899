@@ -1,0 +1,128 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\New Folder
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\FM20.DLL=
+C:\WINDOWS\SYSTEM\WININET.DLL=
+C:\WINDOWS\SYSTEM\SHLWAPI.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comct332.ocx=
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\WINDOWS\Desktop\Learn VB\Code\Sounds\Ywin2.wav=
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Vote.ini=
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Picture.bmp=
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Listbox.txt=
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Text.txt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\Desktop\Learn VB\Code\Learn VB.exe=Yes
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OlePro32.dll=Yes
+C:\WINDOWS\SYSTEM\AsycFilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\SHLWAPI.DLL=Yes
+C:\WINDOWS\SYSTEM\WININET.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\FM20.DLL=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\Comct332.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\Learn VB\Code\Sounds\Ywin2.wav=Yes
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Vote.ini=Yes
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Picture.bmp=Yes
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Listbox.txt=Yes
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Text.txt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\Learn VB\Code\Learn VB.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OlePro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\AsycFilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SHLWAPI.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\FM20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comct332.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\Learn VB\Code\Sounds\Ywin2.wav=$(AppPath)
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Vote.ini=$(AppPath)
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Picture.bmp=$(AppPath)
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Listbox.txt=$(AppPath)
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Text.txt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Learn VB\Code\Learn VB.exe=No
+C:\WINDOWS\Desktop\Learn VB\Code\Sounds\Ywin2.wav=No
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Vote.ini=No
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Picture.bmp=No
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Listbox.txt=No
+C:\WINDOWS\Desktop\Learn VB\Code\Saves\Text.txt=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=Learn_VB
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Learn_VB
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Learn_VB]
+Icon1="Learn VB.exe"
+Title1=Learn_VB
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\New Folder
+ProjectFolder=C:\WINDOWS\Desktop\Learn VB\Code
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\New Folder\setup.exe
+File2=C:\WINDOWS\Desktop\New Folder\Setup.Lst
+File3=C:\WINDOWS\Desktop\New Folder\Learn VB.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
